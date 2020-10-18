@@ -22,7 +22,7 @@
                 <div class="form-group">
                     <h5>sign in</h5>
                   <label for="email mr-sm-2">Email address:</label>
-                  <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter your email address" id="email"required>
+                  <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter your email address" id="emailId"required>
                   
                   <p>We'll never share your email with anyone else.</p>
                 </div>
@@ -35,43 +35,18 @@
                   <input type="checkbox" class="form-check-input mb-2 mr-sm-2" id="Check">
                   <label class="form-check-label mr-sm-2" for="Check"></label>remember me</label>
                 </div>
-                <button type="log in"class="btn btn-secondary mb-2 mr-sm-2 active">
-                  <a href="food.html"class="nav-link text-white">log in</a>
-                
-                </button>
-              </form>
-              
+                <button type="log in"class="btn btn-secondary mb-2 mr-sm-2 active" onclick="loginEvent();"/>
+                  <a href="#"class="nav-link text-white">log in</a>
+                  </button>          
+  <a href="#" class="nav-link" id="forgetpassword" >forgot password?</a>  
 <p>don't have an account?</p> 
-<button type="submit" class="btn btn-secondary mb-2 mr-sm-2">register here!</button>
-        
+<button type="submit" class="btn btn-secondary mb-2 mr-sm-2" id="register here">register here!</button>
             </form>
+            <p id="errorMessage"></p>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
-</section>
-<!-- Footer -->
-<footer class="page-footer font-small blue">
-
- 
-
-
-
-
-
-  
+    <script src="script2.js"></script>      
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

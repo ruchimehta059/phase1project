@@ -1,0 +1,106 @@
+.background{
+    background-color: lightgrey;
+}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Slabo+27px&display=swap');
+.header{
+    font-family: 'Slabo 27px', serif;
+   color: blue;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Dancing+Script:wght@700&family=Slabo+27px&display=swap');
+.text-area{
+    font-family: 'Dancing Script', cursive;
+    color: darkmagenta;
+    margin-top: 20px;
+    border-bottom-style: outset;
+}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Dancing+Script:wght@700&family=Slabo+27px&display=swap');
+.texts{
+    font-family: 'Crimson Text', serif;
+    word-spacing: 3px;
+
+}
+.nav{
+    background-color: seagreen ;
+}
+.nav-link{
+    color:black!important;
+}
+.nav-link:hover{
+    background-color: whitesmoke;
+    border-style: 2px solid #fff ;
+    border-radius: 20px;
+    padding: 0,2rem,1rem!important;
+}
+.phone{
+    color: royalblue;
+    margin: 5px;
+}
+.envelope{
+    color: darkred;
+    margin: 5px;
+}
+.search-bar{
+    position: relative;
+    z-index: 1;
+    top: 0;
+    width:100%;
+}
+.login{
+    border-style: 2px solid #fff ;
+    border-radius: 20px;
+    padding: 0,2rem,1rem!important;
+}
+.login:hover{
+    background-color: hotpink;
+}
+.signup{
+    border-style: 2px solid #fff ;
+    border-radius: 20px;
+    padding: 0,2rem,1rem!important;
+}
+.signup:hover{
+    background-color: hotpink;
+}
+.input-group>.form-control:focus{
+    box-shadow: none;
+}
+.input-group>.form-control:focus{
+    margin: 5px;
+}
+.carousel-control-prev{
+    color:black;
+    position: fixed;
+}
+.carousel-control-next{
+    color: black;
+    position: fixed;
+}
+.carousel{
+      border-bottom-style: dotted;
+      border-bottom-color: crimson;   
+}
+.centerdiv{
+    margin:10px;
+    padding:10px;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+}
+.cite{
+    height: 100px;
+    width: 100px;
+    background-color: lavender;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 120px;
+    box-shadow: 1px 4px 2px 2px gainsboro;
+
+}
+.cite i {
+    transition: all 0.3s linear;
+}
+.cite:hover i{
+     transform: scale(1.4);
+}
